@@ -1,0 +1,111 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+5
+saldo
+6
+450000
+8
+1
+1
+i
+1
+1
+1
+1
+1
+4
+1
+1
+1
+4
+1
+29
+'mostrar saldo actual', saldo
+4
+1
+17
+'que desea hacer'
+4
+1
+11
+'1 retirar'
+4
+1
+13
+'2 consignar'
+10
+7
+0
+1
+8
+opcion=1
+13
+7
+0
+1
+37
+valorretiro>0 and valorretiro<=saldo 
+4
+1
+47
+'valor de retiro invalido o saldo insuficiente'
+13
+6
+1
+5
+saldo
+17
+saldo-valorretiro
+4
+1
+36
+'retiro exitoso, nuevo saldo', saldo
+13
+13
+7
+0
+1
+8
+opcion=2
+13
+5
+1
+17
+valorconsignacion
+7
+0
+1
+19
+valorconsignacion>0
+4
+1
+73
+'el valor de la consignacion no es valido o el valor debe ser mayor de 0'
+13
+6
+1
+5
+saldo
+23
+saldo+valorsonsignacion
+4
+1
+41
+'consignacion exitosa nuevo saldo', saldo
+13
+13
+4
+1
+49
+'saldo final despues de 4 transtacciones', saldio
+5
+1
+6
+opcion
+1
